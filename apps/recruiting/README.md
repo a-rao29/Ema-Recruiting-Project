@@ -44,6 +44,15 @@ http://127.0.0.1:4173/apps/recruiting/
 
 Internet access is required on first load for the React, Babel, and Phosphor Icon CDN assets.
 
+### Deploy on Netlify
+
+The repository includes [`netlify.toml`](../../netlify.toml), so Netlify should use:
+
+- **Build command:** leave empty
+- **Publish directory:** `.`
+
+The site root redirects to `/apps/recruiting/`. Publishing only the `apps/recruiting` directory will break shared styles, primitives, fonts, and logo assets that live elsewhere in the repository.
+
 ## Built flows and how to test them
 
 The prototype is intentionally scripted around the flows below. These are the paths a reviewer can test end to end; controls outside them may be present only to communicate the intended product model.

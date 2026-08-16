@@ -1,0 +1,9 @@
+[build]
+  publish = "."
+
+[[redirects]]
+  from = "/"
+  to = "/apps/recruiting/"
+  status = 302
+  force = true
+
