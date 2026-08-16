@@ -1,0 +1,27 @@
+{
+  "id": "jd-001",
+  "fileName": "Senior Product Designer — AI Analytics.pdf",
+  "uploadedAt": "2026-08-15T09:14:00+05:30",
+  "sizeLabel": "128 KB",
+  "title": "Senior Product Designer, AI Analytics",
+  "location": "Bangalore",
+  "team": "Product Design",
+
+  "body": "About the role\n\nEma is building a new AI analytics product that lets operations leaders interrogate everything their AI employees do — outcomes, exceptions, cost, and quality — without writing a query. This is a new surface, and you would be the first designer on it.\n\nWhat you'll do\n· Own the design of the AI analytics product end to end, from problem discovery through launch.\n· Work directly with the PM and founding engineers to define what this product is, not just how it looks.\n· Design for dense, high-stakes enterprise data without making it feel like a BI tool.\n· Partner with enterprise customers in banking and insurance to ground the work in real operational reality.\n\nWhat we're looking for\n· 8+ years designing software products, with meaningful time on enterprise or B2B products.\n· Evidence of taking products from ambiguity to launch.\n· Comfort with complex workflows and data-dense interfaces.\n· Strong partnership with product and engineering.\n· Based in Bangalore or willing to relocate.\n\nNice to have\n· Experience designing AI or ML-driven product surfaces.\n· Analytics, BI, or observability product experience.",
+
+  "extracted": {
+    "title": "Senior Product Designer",
+    "seniority": "senior-ic",
+    "location": "Bangalore",
+    "yearsExperience": "8+",
+    "signalsMentioned": [
+      { "signal": "enterpriseB2B", "tier": "must", "quote": "meaningful time on enterprise or B2B products" },
+      { "signal": "zeroToOne", "tier": "prioritize", "quote": "evidence of taking products from ambiguity to launch" },
+      { "signal": "complexWorkflows", "tier": "prioritize", "quote": "comfort with complex workflows and data-dense interfaces" },
+      { "signal": "crossFunctionalLeadership", "tier": "prioritize", "quote": "strong partnership with product and engineering" },
+      { "signal": "aiProducts", "tier": "nice", "quote": "experience designing AI or ML-driven product surfaces" },
+      { "signal": "domainDepth", "tier": "nice", "quote": "analytics, BI, or observability product experience" }
+    ],
+    "note": "Years of experience is stated in the JD — do not ask the hiring manager for it."
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "id": "ema",
+  "name": "Ema",
+  "tagline": "Universal AI Employee",
+  "logo": "../../assets/logo.svg",
+  "logoMark": "../../assets/logo-mark.svg",
+
+  "characteristics": {
+    "industry": {
+      "label": "Industry",
+      "value": "Enterprise software · Applied AI",
+      "source": "inferred",
+      "confidence": 0.94,
+      "basis": "Inferred from your website and careers page."
+    },
+    "businessModel": {
+      "label": "Business model",
+      "value": "B2B SaaS, annual enterprise contracts",
+      "source": "confirmed",
+      "confidence": 0.91,
+      "basis": "Inferred from pricing and customer pages."
+    },
+    "audience": {
+      "label": "Audience",
+      "value": "Enterprise B2B",
+      "source": "confirmed",
+      "confidence": 0.97,
+      "basis": "Fortune 500 logos on your customer page."
+    },
+    "stage": {
+      "label": "Company stage",
+      "value": "Series B · high growth",
+      "source": "inferred",
+      "confidence": 0.82,
+      "basis": "Inferred from funding announcements."
+    },
+    "size": {
+      "label": "Company size",
+      "value": "280 employees",
+      "source": "edited",
+      "confidence": 1,
+      "basis": "You updated this from 310."
+    },
+    "productComplexity": {
+      "label": "Product complexity",
+      "value": "High — agentic workflows spanning multiple enterprise systems",
+      "source": "inferred",
+      "confidence": 0.88,
+      "basis": "Inferred from product documentation."
+    },
+    "motion": {
+      "label": "Go-to-market",
+      "value": "Sales-led, with product-led expansion inside accounts",
+      "source": "inferred",
+      "confidence": 0.76,
+      "basis": "Inferred from your job postings and demo-request flow."
+    },
+    "regulation": {
+      "label": "Regulatory environment",
+      "value": "Regulated — banking, insurance and healthcare customers",
+      "source": "confirmed",
+      "confidence": 0.9,
+      "basis": "SOC 2 and HIPAA pages on your site."
+    },
+    "technicalDepth": {
+      "label": "Product type",
+      "value": "Technical product, non-technical end users",
+      "source": "inferred",
+      "confidence": 0.79,
+      "basis": "Inferred from your documentation and demo content."
+    }
+  },
+
+  "talentEnvironment": {
+    "note": "These influence ranking weight. They never exclude a candidate.",
+    "comparableCompanies": [
+      { "name": "Sierra", "source": "inferred" },
+      { "name": "Glean", "source": "inferred" },
+      { "name": "Moveworks", "source": "inferred" },
+      { "name": "Harvey", "source": "confirmed" },
+      { "name": "Decagon", "source": "inferred" }
+    ],
+    "adjacentTalentCompanies": [
+      { "name": "Freshworks", "source": "inferred" },
+      { "name": "Atlassian", "source": "inferred" },
+      { "name": "ServiceNow", "source": "confirmed" },
+      { "name": "Salesforce", "source": "inferred" },
+      { "name": "Zoho", "source": "inferred" },
+      { "name": "Postman", "source": "confirmed" },
+      { "name": "Razorpay", "source": "inferred" },
+      { "name": "Rubrik", "source": "inferred" }
+    ],
+    "relevantBackgrounds": [
+      { "label": "Enterprise SaaS", "signal": "enterpriseB2B", "source": "confirmed" },
+      { "label": "Complex workflow products", "signal": "complexWorkflows", "source": "confirmed" },
+      { "label": "Developer tools", "signal": "domainDepth", "source": "inferred" },
+      { "label": "AI products", "signal": "aiProducts", "source": "inferred" },
+      { "label": "High-growth environments", "signal": "zeroToOne", "source": "inferred" }
+    ]
+  },
+
+  "offices": ["Bangalore", "San Francisco", "London"],
+  "primaryHiringLocation": "Bangalore"
+}

@@ -1,0 +1,108 @@
+{
+  "team": "Product Design",
+  "manager": {
+    "id": "u-000",
+    "name": "Ananya Kulkarni",
+    "initials": "AK",
+    "title": "Head of Design",
+    "location": "Bangalore"
+  },
+  "members": [
+    {
+      "id": "u-001",
+      "name": "Sarah Chen",
+      "initials": "SC",
+      "title": "Senior Product Designer",
+      "tenure": "3 yrs 4 mo",
+      "status": "leaving",
+      "lastDay": "2026-09-12",
+      "location": "Bangalore",
+      "isBackfillAnchor": true,
+      "ownedAreas": ["Agent runbooks", "Case triage console", "Audit trail"],
+      "understoodStrengths": [
+        { "signal": "enterpriseB2B", "label": "Enterprise product experience", "evidence": "Six years across ServiceNow and Ema, always on enterprise admin surfaces." },
+        { "signal": "complexWorkflows", "label": "Complex workflow design", "evidence": "Designed the runbook builder — the densest surface in the product." },
+        { "signal": "execution", "label": "Strong execution", "evidence": "Shipped 14 releases in 3 years with consistently low design-QA churn." },
+        { "signal": "crossFunctionalLeadership", "label": "Stakeholder management", "evidence": "Ran the design side of three Fortune 500 deployments directly with customers." },
+        { "signal": "domainDepth", "label": "Deep domain knowledge", "evidence": "Became the team's reference for insurance claims workflows." }
+      ],
+      "understoodGaps": [
+        { "signal": "zeroToOne", "label": "0→1 product work", "evidence": "Worked almost entirely on established surfaces." },
+        { "signal": "productStrategy", "label": "Product strategy", "evidence": "Strongest downstream of a defined direction." },
+        { "signal": "aiProducts", "label": "AI product patterns", "evidence": "Joined before the agentic surfaces existed." }
+      ],
+      "summary": "A strong execution-focused senior designer. The product's most complex surfaces work because of her."
+    },
+    {
+      "id": "u-002",
+      "name": "Rohit Menon",
+      "initials": "RM",
+      "title": "Staff Product Designer",
+      "tenure": "2 yrs 1 mo",
+      "status": "active",
+      "location": "Bangalore",
+      "highPerformer": true,
+      "strengths": ["designSystems", "execution", "complexWorkflows"],
+      "note": "Owns the design system and the data-dense surfaces."
+    },
+    {
+      "id": "u-003",
+      "name": "Priya Nair",
+      "initials": "PN",
+      "title": "Product Designer",
+      "tenure": "1 yr 7 mo",
+      "status": "active",
+      "location": "Bangalore",
+      "strengths": ["research", "enterpriseB2B"],
+      "note": "Runs enterprise customer research; strongest qualitative depth on the team."
+    },
+    {
+      "id": "u-004",
+      "name": "Daniel Okafor",
+      "initials": "DO",
+      "title": "Senior Product Designer",
+      "tenure": "2 yrs 10 mo",
+      "status": "active",
+      "location": "London",
+      "highPerformer": true,
+      "strengths": ["crossFunctionalLeadership", "execution", "domainDepth"],
+      "note": "Leads the EMEA deployment surfaces; the team's strongest partner to engineering."
+    },
+    {
+      "id": "u-005",
+      "name": "Meera Iyer",
+      "initials": "MI",
+      "title": "Product Designer",
+      "tenure": "11 mo",
+      "status": "active",
+      "location": "Bangalore",
+      "strengths": ["designSystems", "execution"],
+      "note": "Fast, high-craft execution across the admin console."
+    },
+    {
+      "id": "u-006",
+      "name": "Tom Alvarez",
+      "initials": "TA",
+      "title": "Senior Product Designer",
+      "tenure": "1 yr 3 mo",
+      "status": "active",
+      "location": "San Francisco",
+      "strengths": ["enterpriseB2B", "complexWorkflows"],
+      "note": "Owns integrations and connector configuration."
+    }
+  ],
+
+  "capabilityMap": {
+    "strong": [
+      { "signal": "enterpriseB2B", "label": "Enterprise UX", "depth": 5 },
+      { "signal": "designSystems", "label": "Design systems", "depth": 5 },
+      { "signal": "execution", "label": "Execution", "depth": 5 },
+      { "signal": "complexWorkflows", "label": "Complex workflows", "depth": 4 }
+    ],
+    "lessRepresented": [
+      { "signal": "aiProducts", "label": "AI product experience", "depth": 2 },
+      { "signal": "zeroToOne", "label": "0→1 product strategy", "depth": 1 },
+      { "signal": "consumer", "label": "Consumer interaction patterns", "depth": 1 }
+    ]
+  }
+}

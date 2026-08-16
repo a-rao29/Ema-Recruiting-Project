@@ -1,0 +1,1728 @@
+{
+  "signalVocabulary": [
+    {
+      "key": "enterpriseB2B",
+      "label": "Enterprise / B2B experience"
+    },
+    {
+      "key": "zeroToOne",
+      "label": "0→1 experience"
+    },
+    {
+      "key": "complexWorkflows",
+      "label": "Complex workflows"
+    },
+    {
+      "key": "aiProducts",
+      "label": "AI product experience"
+    },
+    {
+      "key": "productStrategy",
+      "label": "Product strategy"
+    },
+    {
+      "key": "crossFunctionalLeadership",
+      "label": "Cross-functional leadership"
+    },
+    {
+      "key": "research",
+      "label": "Research depth"
+    },
+    {
+      "key": "designSystems",
+      "label": "Design systems / craft"
+    },
+    {
+      "key": "consumer",
+      "label": "Consumer interaction patterns"
+    },
+    {
+      "key": "domainDepth",
+      "label": "Domain depth"
+    },
+    {
+      "key": "execution",
+      "label": "Execution strength"
+    },
+    {
+      "key": "portfolioDepth",
+      "label": "Portfolio depth (design-specific)"
+    },
+    {
+      "key": "enterpriseProcess",
+      "label": "Survived enterprise process"
+    }
+  ],
+  "suggestedCalibrationSet": [
+    "c-003",
+    "c-002",
+    "c-004",
+    "c-007"
+  ],
+  "candidates": [
+    {
+      "id": "c-001",
+      "name": "Maya Raghavan",
+      "initials": "MR",
+      "avatarTone": "green",
+      "title": "Senior Product Designer",
+      "company": "Freshworks",
+      "location": "Bangalore, India",
+      "locationFit": "in-city",
+      "yearsExperience": 9,
+      "seniority": "senior-ic",
+      "archetype": "enterprise-zero-to-one",
+      "companyEnvironments": [
+        "enterprise-b2b-saas",
+        "workflow",
+        "high-growth"
+      ],
+      "headline": "Took two enterprise products from a blank page to GA at Freshworks.",
+      "signals": {
+        "enterpriseB2B": 5,
+        "zeroToOne": 5,
+        "complexWorkflows": 5,
+        "aiProducts": 2,
+        "productStrategy": 4,
+        "crossFunctionalLeadership": 4,
+        "research": 3,
+        "designSystems": 3,
+        "consumer": 1,
+        "domainDepth": 4,
+        "execution": 5,
+        "enterpriseProcess": 5
+      },
+      "evidence": [
+        {
+          "signal": "zeroToOne",
+          "text": "Led two 0→1 enterprise product launches — Freddy Copilot for Support and CRM Analytics — both from problem definition to GA."
+        },
+        {
+          "signal": "enterpriseB2B",
+          "text": "Five years in comparable B2B SaaS environments, entirely on admin and operator surfaces."
+        },
+        {
+          "signal": "complexWorkflows",
+          "text": "Designed the ticket-routing rules engine used by 40,000 support teams."
+        },
+        {
+          "signal": "crossFunctionalLeadership",
+          "text": "Ran design as the only designer on a 14-person pod with the PM and eng lead."
+        }
+      ],
+      "tradeoffs": [
+        "No direct AI product experience — closest is a copilot surface layered on an existing product."
+      ],
+      "experience": [
+        {
+          "company": "Freshworks",
+          "title": "Senior Product Designer",
+          "period": "2021 — now",
+          "note": "0→1 on CRM Analytics and Freddy Copilot"
+        },
+        {
+          "company": "Zoho",
+          "title": "Product Designer",
+          "period": "2018 — 2021",
+          "note": "Desk and workflow automation"
+        },
+        {
+          "company": "Practo",
+          "title": "Product Designer",
+          "period": "2017 — 2018",
+          "note": "Provider tooling"
+        }
+      ],
+      "education": "B.Des, National Institute of Design",
+      "portfolio": {
+        "url": "mayaraghavan.design",
+        "depth": "strong",
+        "note": "3 enterprise case studies, each showing problem framing before UI"
+      },
+      "linkedin": "linkedin.com/in/maya-raghavan",
+      "mutuals": 3,
+      "availability": "2 months notice",
+      "workAuth": "Indian citizen",
+      "compensation": "₹68–78 L",
+      "openToWork": true
+    },
+    {
+      "id": "c-002",
+      "name": "Kabir Sethi",
+      "initials": "KS",
+      "avatarTone": "purple",
+      "title": "Founding Designer",
+      "company": "Reflectiv AI",
+      "location": "Bangalore, India",
+      "locationFit": "in-city",
+      "yearsExperience": 7,
+      "seniority": "senior-ic",
+      "archetype": "ai-startup-zero-to-one",
+      "companyEnvironments": [
+        "ai-native",
+        "seed-stage",
+        "high-growth"
+      ],
+      "headline": "Founding designer at two AI startups. Everything he's shipped started from nothing.",
+      "signals": {
+        "enterpriseB2B": 2,
+        "zeroToOne": 5,
+        "complexWorkflows": 3,
+        "aiProducts": 5,
+        "productStrategy": 4,
+        "crossFunctionalLeadership": 3,
+        "research": 3,
+        "designSystems": 2,
+        "consumer": 3,
+        "domainDepth": 2,
+        "execution": 4,
+        "enterpriseProcess": 1
+      },
+      "evidence": [
+        {
+          "signal": "zeroToOne",
+          "text": "Founding designer twice — took both products from idea to first paying customers."
+        },
+        {
+          "signal": "aiProducts",
+          "text": "Four years designing LLM product surfaces: prompt authoring, evaluation, agent trace review."
+        },
+        {
+          "signal": "productStrategy",
+          "text": "Co-defined the product direction with the founder; not handed a spec."
+        }
+      ],
+      "tradeoffs": [
+        "Less enterprise experience — largest customer to date is a 200-person company.",
+        "Has not worked inside a regulated environment."
+      ],
+      "experience": [
+        {
+          "company": "Reflectiv AI",
+          "title": "Founding Designer",
+          "period": "2024 — now",
+          "note": "Agent evaluation platform"
+        },
+        {
+          "company": "Lumen Labs",
+          "title": "Founding Designer",
+          "period": "2022 — 2024",
+          "note": "LLM writing tools, acquired"
+        },
+        {
+          "company": "Swiggy",
+          "title": "Product Designer",
+          "period": "2019 — 2022",
+          "note": "Consumer ordering"
+        }
+      ],
+      "education": "B.Tech, IIT Guwahati",
+      "portfolio": {
+        "url": "kabir.work",
+        "depth": "strong",
+        "note": "Dense process writing on designing for model uncertainty"
+      },
+      "linkedin": "linkedin.com/in/kabir-sethi",
+      "contactChannels": { "email": false, "linkedin": true },
+      "mutuals": 0,
+      "availability": "1 month notice",
+      "workAuth": "Indian citizen",
+      "compensation": "₹60–72 L",
+      "openToWork": true
+    },
+    {
+      "id": "c-003",
+      "name": "Ritika Bhattacharya",
+      "initials": "RB",
+      "avatarTone": "blue",
+      "title": "Lead Product Designer",
+      "company": "ServiceNow",
+      "location": "Bangalore, India",
+      "locationFit": "in-city",
+      "yearsExperience": 10,
+      "seniority": "lead",
+      "archetype": "enterprise-execution",
+      "companyEnvironments": [
+        "enterprise-b2b-saas",
+        "workflow",
+        "regulated",
+        "large-tech"
+      ],
+      "headline": "A decade inside enterprise workflow software, trusted by Fortune 100 stakeholders.",
+      "signals": {
+        "enterpriseB2B": 5,
+        "zeroToOne": 2,
+        "complexWorkflows": 5,
+        "aiProducts": 1,
+        "productStrategy": 3,
+        "crossFunctionalLeadership": 5,
+        "research": 3,
+        "designSystems": 4,
+        "consumer": 1,
+        "domainDepth": 5,
+        "execution": 5,
+        "enterpriseProcess": 5
+      },
+      "evidence": [
+        {
+          "signal": "enterpriseB2B",
+          "text": "Ten years across ServiceNow and SAP, entirely on enterprise operator surfaces."
+        },
+        {
+          "signal": "crossFunctionalLeadership",
+          "text": "Led design reviews directly with Fortune 100 customer stakeholders across 20+ deployments."
+        },
+        {
+          "signal": "complexWorkflows",
+          "text": "Owns ITSM incident management — one of the densest workflow surfaces in enterprise software."
+        },
+        {
+          "signal": "domainDepth",
+          "text": "Reference expert on ITIL process design inside the org."
+        }
+      ],
+      "tradeoffs": [
+        "Less 0→1 experience — has consistently improved mature, established products.",
+        "No AI product exposure."
+      ],
+      "experience": [
+        {
+          "company": "ServiceNow",
+          "title": "Lead Product Designer",
+          "period": "2020 — now",
+          "note": "ITSM incident management"
+        },
+        {
+          "company": "SAP",
+          "title": "Senior Product Designer",
+          "period": "2016 — 2020",
+          "note": "Ariba procurement"
+        }
+      ],
+      "education": "M.Des, IIT Bombay",
+      "portfolio": {
+        "url": "ritikab.design",
+        "depth": "moderate",
+        "note": "Polished, outcome-led; light on the messy middle"
+      },
+      "linkedin": "linkedin.com/in/ritika-bhattacharya",
+      "contactChannels": { "email": true, "linkedin": false },
+      "mutuals": 7,
+      "availability": "3 months notice",
+      "workAuth": "Indian citizen",
+      "compensation": "₹75–85 L",
+      "openToWork": false
+    },
+    {
+      "id": "c-004",
+      "name": "Arjun Krishnan",
+      "initials": "AK",
+      "avatarTone": "orange",
+      "title": "Staff Product Designer",
+      "company": "Google",
+      "location": "Bangalore, India",
+      "locationFit": "in-city",
+      "yearsExperience": 12,
+      "seniority": "staff",
+      "archetype": "bigtech-ai-leadership",
+      "companyEnvironments": [
+        "large-tech",
+        "ai-native",
+        "consumer"
+      ],
+      "headline": "Twelve years at scale, most recently shipping AI surfaces to hundreds of millions of users.",
+      "signals": {
+        "enterpriseB2B": 2,
+        "zeroToOne": 3,
+        "complexWorkflows": 2,
+        "aiProducts": 5,
+        "productStrategy": 4,
+        "crossFunctionalLeadership": 5,
+        "research": 4,
+        "designSystems": 4,
+        "consumer": 5,
+        "domainDepth": 3,
+        "execution": 4,
+        "enterpriseProcess": 3
+      },
+      "evidence": [
+        {
+          "signal": "aiProducts",
+          "text": "Three years on Gemini surfaces — conversational UX, grounding and citation patterns, model failure states."
+        },
+        {
+          "signal": "crossFunctionalLeadership",
+          "text": "Design lead across four pods; mentors six designers."
+        },
+        {
+          "signal": "consumer",
+          "text": "Shipped AI features to a consumer base measured in hundreds of millions."
+        }
+      ],
+      "tradeoffs": [
+        "More consumer-focused — limited exposure to enterprise operator workflows.",
+        "Big-company operating model; less evidence of working without support functions."
+      ],
+      "experience": [
+        {
+          "company": "Google",
+          "title": "Staff Product Designer",
+          "period": "2018 — now",
+          "note": "Gemini, Search"
+        },
+        {
+          "company": "Flipkart",
+          "title": "Senior Product Designer",
+          "period": "2014 — 2018",
+          "note": "Consumer marketplace"
+        }
+      ],
+      "education": "B.Des, Srishti Institute",
+      "portfolio": {
+        "url": "arjunk.co",
+        "depth": "strong",
+        "note": "Consumer-scale AI work, heavy on craft and motion"
+      },
+      "linkedin": "linkedin.com/in/arjun-krishnan",
+      "contactChannels": { "email": false, "linkedin": false },
+      "mutuals": 0,
+      "availability": "2 months notice",
+      "workAuth": "Indian citizen",
+      "compensation": "₹95–1.1 Cr",
+      "openToWork": false
+    },
+    {
+      "id": "c-005",
+      "name": "Nikhil Warrier",
+      "initials": "NW",
+      "avatarTone": "green",
+      "title": "Senior Product Designer",
+      "company": "Postman",
+      "location": "Bangalore, India",
+      "locationFit": "in-city",
+      "yearsExperience": 8,
+      "seniority": "senior-ic",
+      "archetype": "enterprise-zero-to-one",
+      "companyEnvironments": [
+        "enterprise-b2b-saas",
+        "developer-tools",
+        "high-growth"
+      ],
+      "headline": "Built Postman's first observability surface from scratch, for technical enterprise users.",
+      "signals": {
+        "enterpriseB2B": 4,
+        "zeroToOne": 4,
+        "complexWorkflows": 4,
+        "aiProducts": 3,
+        "productStrategy": 4,
+        "crossFunctionalLeadership": 3,
+        "research": 3,
+        "designSystems": 3,
+        "consumer": 1,
+        "domainDepth": 4,
+        "execution": 4,
+        "enterpriseProcess": 4
+      },
+      "evidence": [
+        {
+          "signal": "zeroToOne",
+          "text": "Defined and shipped API observability — a new product line — from discovery through launch."
+        },
+        {
+          "signal": "domainDepth",
+          "text": "Deep experience designing data-dense monitoring and analytics interfaces."
+        },
+        {
+          "signal": "enterpriseB2B",
+          "text": "Worked with Postman's enterprise tier, including admin governance and audit surfaces."
+        }
+      ],
+      "tradeoffs": [
+        "Developer-tool users rather than business operators — different literacy assumptions."
+      ],
+      "experience": [
+        {
+          "company": "Postman",
+          "title": "Senior Product Designer",
+          "period": "2021 — now",
+          "note": "API observability, enterprise governance"
+        },
+        {
+          "company": "Hasura",
+          "title": "Product Designer",
+          "period": "2018 — 2021",
+          "note": "Console and data modelling"
+        }
+      ],
+      "education": "B.Des, MIT Institute of Design",
+      "portfolio": {
+        "url": "nikhilwarrier.com",
+        "depth": "strong",
+        "note": "Deep write-up on designing observability for technical users"
+      },
+      "linkedin": "linkedin.com/in/nikhil-warrier",
+      "mutuals": 2,
+      "availability": "2 months notice",
+      "workAuth": "Indian citizen",
+      "compensation": "₹65–75 L",
+      "openToWork": true
+    },
+    {
+      "id": "c-006",
+      "name": "Sneha Kulkarni",
+      "initials": "SK",
+      "avatarTone": "beige",
+      "title": "Senior Product Designer",
+      "company": "Atlassian",
+      "location": "Bangalore, India",
+      "locationFit": "in-city",
+      "yearsExperience": 9,
+      "seniority": "senior-ic",
+      "archetype": "systems-craft",
+      "companyEnvironments": [
+        "enterprise-b2b-saas",
+        "large-tech"
+      ],
+      "headline": "Owns one of the most widely used design systems in enterprise software.",
+      "signals": {
+        "enterpriseB2B": 4,
+        "zeroToOne": 1,
+        "complexWorkflows": 3,
+        "aiProducts": 1,
+        "productStrategy": 2,
+        "crossFunctionalLeadership": 3,
+        "research": 2,
+        "designSystems": 5,
+        "consumer": 1,
+        "domainDepth": 3,
+        "execution": 5,
+        "enterpriseProcess": 5
+      },
+      "evidence": [
+        {
+          "signal": "designSystems",
+          "text": "Four years on Atlassian Design System, owning the data-display and forms surface areas."
+        },
+        {
+          "signal": "execution",
+          "text": "Exceptional craft consistency; contributed 60+ production components."
+        }
+      ],
+      "tradeoffs": [
+        "Very little product-definition work — has operated downstream of set direction.",
+        "No 0→1 evidence."
+      ],
+      "experience": [
+        {
+          "company": "Atlassian",
+          "title": "Senior Product Designer",
+          "period": "2020 — now",
+          "note": "Design system"
+        },
+        {
+          "company": "Myntra",
+          "title": "Product Designer",
+          "period": "2016 — 2020",
+          "note": "Commerce platform"
+        }
+      ],
+      "education": "B.Des, NIFT",
+      "portfolio": {
+        "url": "snehak.design",
+        "depth": "strong",
+        "note": "Design-system documentation as portfolio; exceptional rigour"
+      },
+      "linkedin": "linkedin.com/in/sneha-kulkarni",
+      "mutuals": 0,
+      "availability": "2 months notice",
+      "workAuth": "Indian citizen",
+      "compensation": "₹70–80 L",
+      "openToWork": false
+    },
+    {
+      "id": "c-007",
+      "name": "Farhan Qureshi",
+      "initials": "FQ",
+      "avatarTone": "purple",
+      "title": "Principal Designer",
+      "company": "Razorpay",
+      "location": "Bangalore, India",
+      "locationFit": "in-city",
+      "yearsExperience": 11,
+      "seniority": "principal",
+      "archetype": "adjacent-unexpected",
+      "companyEnvironments": [
+        "fintech",
+        "regulated",
+        "high-growth",
+        "consumer"
+      ],
+      "headline": "Primarily consumer fintech — but built an AI risk-review workflow from 0→1 inside a regulated environment.",
+      "signals": {
+        "enterpriseB2B": 3,
+        "zeroToOne": 5,
+        "complexWorkflows": 5,
+        "aiProducts": 4,
+        "productStrategy": 4,
+        "crossFunctionalLeadership": 4,
+        "research": 3,
+        "designSystems": 3,
+        "consumer": 4,
+        "domainDepth": 4,
+        "execution": 4,
+        "enterpriseProcess": 4
+      },
+      "evidence": [
+        {
+          "signal": "zeroToOne",
+          "text": "Created Razorpay's merchant risk-review product from a blank page; now reviews 2M transactions a month."
+        },
+        {
+          "signal": "aiProducts",
+          "text": "Designed the human-in-the-loop review layer over an ML fraud model — confidence display, override, and audit."
+        },
+        {
+          "signal": "complexWorkflows",
+          "text": "Built the underwriting queue used by 300 internal operations analysts."
+        },
+        {
+          "signal": "domainDepth",
+          "text": "Worked under RBI regulatory constraints for six years — comfortable designing for audit and compliance."
+        }
+      ],
+      "tradeoffs": [
+        "Job title and company read consumer fintech, not enterprise SaaS.",
+        "Has not sold to or designed for external enterprise buyers."
+      ],
+      "experience": [
+        {
+          "company": "Razorpay",
+          "title": "Principal Designer",
+          "period": "2019 — now",
+          "note": "Risk, underwriting, internal operations tooling"
+        },
+        {
+          "company": "Paytm",
+          "title": "Senior Product Designer",
+          "period": "2015 — 2019",
+          "note": "Payments"
+        }
+      ],
+      "education": "B.Arch, CEPT University",
+      "portfolio": {
+        "url": "farhanq.design",
+        "depth": "moderate",
+        "note": "Sparse — most work is internal tooling under NDA"
+      },
+      "linkedin": "linkedin.com/in/farhan-qureshi",
+      "mutuals": 1,
+      "availability": "3 months notice",
+      "workAuth": "Indian citizen",
+      "compensation": "₹85–95 L",
+      "openToWork": true
+    },
+    {
+      "id": "c-008",
+      "name": "Aditi Ramesh",
+      "initials": "AR",
+      "avatarTone": "blue",
+      "title": "Senior Product Designer",
+      "company": "Salesforce",
+      "location": "Hyderabad, India",
+      "locationFit": "open-to-relocate",
+      "yearsExperience": 9,
+      "seniority": "senior-ic",
+      "archetype": "enterprise-execution",
+      "companyEnvironments": [
+        "enterprise-b2b-saas",
+        "large-tech",
+        "workflow"
+      ],
+      "headline": "Nine years of enterprise CRM surfaces; exceptionally reliable shipping cadence.",
+      "signals": {
+        "enterpriseB2B": 5,
+        "zeroToOne": 2,
+        "complexWorkflows": 4,
+        "aiProducts": 2,
+        "productStrategy": 2,
+        "crossFunctionalLeadership": 4,
+        "research": 3,
+        "designSystems": 4,
+        "consumer": 1,
+        "domainDepth": 4,
+        "execution": 5,
+        "enterpriseProcess": 5
+      },
+      "evidence": [
+        {
+          "signal": "enterpriseB2B",
+          "text": "Sales Cloud admin configuration and permissions — deep enterprise operator work."
+        },
+        {
+          "signal": "execution",
+          "text": "Shipped in every release cycle for four years running."
+        }
+      ],
+      "tradeoffs": [
+        "Based in Hyderabad — states she is open to relocating to Bangalore.",
+        "Limited 0→1 evidence."
+      ],
+      "experience": [
+        {
+          "company": "Salesforce",
+          "title": "Senior Product Designer",
+          "period": "2019 — now",
+          "note": "Sales Cloud admin"
+        },
+        {
+          "company": "Oracle",
+          "title": "Product Designer",
+          "period": "2017 — 2019",
+          "note": "HCM"
+        }
+      ],
+      "education": "M.Des, IIT Hyderabad",
+      "portfolio": {
+        "url": "aditiramesh.design",
+        "depth": "moderate",
+        "note": "Clean enterprise case studies, execution-focused"
+      },
+      "linkedin": "linkedin.com/in/aditi-ramesh",
+      "mutuals": 0,
+      "availability": "2 months notice",
+      "workAuth": "Indian citizen",
+      "compensation": "₹62–72 L",
+      "openToWork": true
+    },
+    {
+      "id": "c-009",
+      "name": "Vikram Deshpande",
+      "initials": "VD",
+      "avatarTone": "beige",
+      "title": "Design Director",
+      "company": "Lollypop Design Studio",
+      "location": "Bangalore, India",
+      "locationFit": "in-city",
+      "yearsExperience": 13,
+      "seniority": "director",
+      "archetype": "breadth-agency",
+      "companyEnvironments": [
+        "agency",
+        "consumer",
+        "enterprise-b2b-saas"
+      ],
+      "headline": "Thirteen years and forty-plus products across every industry — breadth over depth.",
+      "signals": {
+        "enterpriseB2B": 3,
+        "zeroToOne": 3,
+        "complexWorkflows": 2,
+        "aiProducts": 2,
+        "productStrategy": 3,
+        "crossFunctionalLeadership": 4,
+        "research": 4,
+        "designSystems": 3,
+        "consumer": 4,
+        "domainDepth": 1,
+        "execution": 3,
+        "enterpriseProcess": 3
+      },
+      "evidence": [
+        {
+          "signal": "research",
+          "text": "Runs discovery engagements; strong at framing ambiguous client problems."
+        },
+        {
+          "signal": "crossFunctionalLeadership",
+          "text": "Manages a team of 11 designers across concurrent client engagements."
+        }
+      ],
+      "tradeoffs": [
+        "Agency model — hands work off at launch rather than living with it.",
+        "No sustained ownership of a single product over multiple years."
+      ],
+      "experience": [
+        {
+          "company": "Lollypop",
+          "title": "Design Director",
+          "period": "2018 — now",
+          "note": "Client engagements"
+        },
+        {
+          "company": "Fractal Ink",
+          "title": "Senior Designer",
+          "period": "2013 — 2018",
+          "note": "Enterprise clients"
+        }
+      ],
+      "education": "B.Des, Symbiosis",
+      "portfolio": {
+        "url": "vikramdeshpande.com",
+        "depth": "strong",
+        "note": "Wide range of client work; less depth per project"
+      },
+      "linkedin": "linkedin.com/in/vikram-deshpande",
+      "mutuals": 0,
+      "availability": "1 month notice",
+      "workAuth": "Indian citizen",
+      "compensation": "₹80–90 L",
+      "openToWork": true
+    },
+    {
+      "id": "c-010",
+      "name": "Lakshmi Subramanian",
+      "initials": "LS",
+      "avatarTone": "green",
+      "title": "Senior Product Designer",
+      "company": "Rubrik",
+      "location": "San Francisco, USA",
+      "locationFit": "open-to-relocate",
+      "yearsExperience": 10,
+      "seniority": "senior-ic",
+      "archetype": "enterprise-zero-to-one",
+      "companyEnvironments": [
+        "enterprise-b2b-saas",
+        "regulated",
+        "high-growth"
+      ],
+      "headline": "Built Rubrik's ransomware investigation product from zero; actively looking to move to Bangalore.",
+      "signals": {
+        "enterpriseB2B": 5,
+        "zeroToOne": 4,
+        "complexWorkflows": 5,
+        "aiProducts": 3,
+        "productStrategy": 4,
+        "crossFunctionalLeadership": 4,
+        "research": 3,
+        "designSystems": 2,
+        "consumer": 1,
+        "domainDepth": 5,
+        "execution": 4,
+        "enterpriseProcess": 5
+      },
+      "evidence": [
+        {
+          "signal": "zeroToOne",
+          "text": "First designer on Ransomware Investigation; took it from concept to a named product line."
+        },
+        {
+          "signal": "complexWorkflows",
+          "text": "Designed forensic timeline analysis for security operations teams."
+        },
+        {
+          "signal": "domainDepth",
+          "text": "Six years designing for regulated enterprise security and compliance buyers."
+        }
+      ],
+      "tradeoffs": [
+        "Currently in San Francisco — has stated intent to relocate to Bangalore, timeline unconfirmed."
+      ],
+      "experience": [
+        {
+          "company": "Rubrik",
+          "title": "Senior Product Designer",
+          "period": "2020 — now",
+          "note": "Security products"
+        },
+        {
+          "company": "Splunk",
+          "title": "Product Designer",
+          "period": "2016 — 2020",
+          "note": "Enterprise security"
+        }
+      ],
+      "education": "MS HCI, Georgia Tech",
+      "portfolio": {
+        "url": "lakshmis.design",
+        "depth": "thin",
+        "note": "Security work largely unpublishable; one redacted case study"
+      },
+      "linkedin": "linkedin.com/in/lakshmi-subramanian",
+      "mutuals": 0,
+      "availability": "3 months notice",
+      "workAuth": "US H-1B · Indian citizen",
+      "compensation": "$185–210 K",
+      "openToWork": true
+    },
+    {
+      "id": "c-011",
+      "name": "Rahul Chatterjee",
+      "initials": "RC",
+      "avatarTone": "purple",
+      "title": "Product Designer",
+      "company": "Sarvam AI",
+      "location": "Bangalore, India",
+      "locationFit": "in-city",
+      "yearsExperience": 6,
+      "seniority": "mid",
+      "archetype": "ai-startup-zero-to-one",
+      "companyEnvironments": [
+        "ai-native",
+        "seed-stage"
+      ],
+      "headline": "Designs agent and evaluation surfaces at an Indian foundation-model lab.",
+      "signals": {
+        "enterpriseB2B": 2,
+        "zeroToOne": 4,
+        "complexWorkflows": 3,
+        "aiProducts": 5,
+        "productStrategy": 3,
+        "crossFunctionalLeadership": 2,
+        "research": 2,
+        "designSystems": 3,
+        "consumer": 2,
+        "domainDepth": 3,
+        "execution": 4,
+        "enterpriseProcess": 1
+      },
+      "evidence": [
+        {
+          "signal": "aiProducts",
+          "text": "Designs model playground, eval dashboards, and agent trace inspection."
+        },
+        {
+          "signal": "zeroToOne",
+          "text": "Every surface he's shipped at Sarvam launched from nothing."
+        }
+      ],
+      "tradeoffs": [
+        "Six years total — below the JD's stated 8+ years.",
+        "Has not worked with enterprise buyers."
+      ],
+      "experience": [
+        {
+          "company": "Sarvam AI",
+          "title": "Product Designer",
+          "period": "2023 — now",
+          "note": "Developer and agent surfaces"
+        },
+        {
+          "company": "Zomato",
+          "title": "Product Designer",
+          "period": "2020 — 2023",
+          "note": "Merchant app"
+        }
+      ],
+      "education": "B.Des, IIT Delhi",
+      "portfolio": {
+        "url": "rahulc.design",
+        "depth": "moderate",
+        "note": "Playground and eval surfaces, well documented"
+      },
+      "linkedin": "linkedin.com/in/rahul-chatterjee",
+      "mutuals": 0,
+      "availability": "1 month notice",
+      "workAuth": "Indian citizen",
+      "compensation": "₹45–55 L",
+      "openToWork": true
+    },
+    {
+      "id": "c-012",
+      "name": "Ishaan Malhotra",
+      "initials": "IM",
+      "avatarTone": "orange",
+      "title": "Senior Staff Designer",
+      "company": "Microsoft",
+      "location": "Bangalore, India",
+      "locationFit": "in-city",
+      "yearsExperience": 14,
+      "seniority": "staff",
+      "archetype": "bigtech-ai-leadership",
+      "companyEnvironments": [
+        "large-tech",
+        "enterprise-b2b-saas",
+        "ai-native"
+      ],
+      "headline": "Fourteen years at Microsoft, most recently on Copilot for enterprise admins.",
+      "signals": {
+        "enterpriseB2B": 4,
+        "zeroToOne": 2,
+        "complexWorkflows": 4,
+        "aiProducts": 5,
+        "productStrategy": 3,
+        "crossFunctionalLeadership": 5,
+        "research": 3,
+        "designSystems": 4,
+        "consumer": 2,
+        "domainDepth": 4,
+        "execution": 4,
+        "enterpriseProcess": 5
+      },
+      "evidence": [
+        {
+          "signal": "aiProducts",
+          "text": "Two years on Copilot admin and governance surfaces inside Microsoft 365."
+        },
+        {
+          "signal": "crossFunctionalLeadership",
+          "text": "Leads a design team of eight across two orgs."
+        },
+        {
+          "signal": "enterpriseB2B",
+          "text": "Entire career on enterprise administrator tooling."
+        }
+      ],
+      "tradeoffs": [
+        "Fourteen years inside one large company — untested outside that operating model.",
+        "Thin 0→1 evidence; has extended mature platforms."
+      ],
+      "experience": [
+        {
+          "company": "Microsoft",
+          "title": "Senior Staff Designer",
+          "period": "2012 — now",
+          "note": "M365 admin, Copilot"
+        }
+      ],
+      "education": "B.Tech, BITS Pilani",
+      "portfolio": {
+        "url": "ishaanmalhotra.com",
+        "depth": "thin",
+        "note": "Minimal public work — 14 years mostly under NDA"
+      },
+      "linkedin": "linkedin.com/in/ishaan-malhotra",
+      "mutuals": 0,
+      "availability": "3 months notice",
+      "workAuth": "Indian citizen",
+      "compensation": "₹1.0–1.2 Cr",
+      "openToWork": false
+    },
+    {
+      "id": "c-013",
+      "name": "Divya Prakash",
+      "initials": "DP",
+      "avatarTone": "beige",
+      "title": "Senior Product Designer",
+      "company": "Zoho",
+      "location": "Chennai, India",
+      "locationFit": "in-country-remote",
+      "yearsExperience": 8,
+      "seniority": "senior-ic",
+      "archetype": "systems-craft",
+      "companyEnvironments": [
+        "enterprise-b2b-saas",
+        "workflow"
+      ],
+      "headline": "High-craft enterprise execution across Zoho's workflow suite.",
+      "signals": {
+        "enterpriseB2B": 4,
+        "zeroToOne": 2,
+        "complexWorkflows": 4,
+        "aiProducts": 1,
+        "productStrategy": 2,
+        "crossFunctionalLeadership": 2,
+        "research": 2,
+        "designSystems": 5,
+        "consumer": 1,
+        "domainDepth": 3,
+        "execution": 5,
+        "enterpriseProcess": 4
+      },
+      "evidence": [
+        {
+          "signal": "designSystems",
+          "text": "Rebuilt the Zoho Creator component library across 30 modules."
+        },
+        {
+          "signal": "complexWorkflows",
+          "text": "Designed the low-code workflow builder used by Creator's business users."
+        }
+      ],
+      "tradeoffs": [
+        "Based in Chennai; open to remote within India, not to relocating.",
+        "Limited product-strategy exposure."
+      ],
+      "experience": [
+        {
+          "company": "Zoho",
+          "title": "Senior Product Designer",
+          "period": "2019 — now",
+          "note": "Creator, Flow"
+        },
+        {
+          "company": "Freshworks",
+          "title": "Product Designer",
+          "period": "2018 — 2019",
+          "note": "Freshdesk"
+        }
+      ],
+      "education": "B.Des, Anna University",
+      "portfolio": {
+        "url": "divyaprakash.design",
+        "depth": "strong",
+        "note": "Component-level craft breakdowns"
+      },
+      "linkedin": "linkedin.com/in/divya-prakash",
+      "mutuals": 4,
+      "availability": "2 months notice",
+      "workAuth": "Indian citizen",
+      "compensation": "₹55–65 L",
+      "openToWork": true
+    },
+    {
+      "id": "c-014",
+      "name": "Karthik Iyer",
+      "initials": "KI",
+      "avatarTone": "blue",
+      "title": "Lead Product Designer",
+      "company": "Darwinbox",
+      "location": "Hyderabad, India",
+      "locationFit": "in-country-remote",
+      "yearsExperience": 11,
+      "seniority": "lead",
+      "archetype": "enterprise-execution",
+      "companyEnvironments": [
+        "enterprise-b2b-saas",
+        "workflow",
+        "high-growth"
+      ],
+      "headline": "Leads design for enterprise HR workflows deployed across 900 organisations.",
+      "signals": {
+        "enterpriseB2B": 5,
+        "zeroToOne": 3,
+        "complexWorkflows": 5,
+        "aiProducts": 2,
+        "productStrategy": 3,
+        "crossFunctionalLeadership": 5,
+        "research": 3,
+        "designSystems": 3,
+        "consumer": 1,
+        "domainDepth": 4,
+        "execution": 5,
+        "enterpriseProcess": 5
+      },
+      "evidence": [
+        {
+          "signal": "complexWorkflows",
+          "text": "Owns approval chains, org hierarchies, and policy configuration — deeply nested enterprise logic."
+        },
+        {
+          "signal": "crossFunctionalLeadership",
+          "text": "Partners with implementation teams on live enterprise rollouts."
+        },
+        {
+          "signal": "enterpriseB2B",
+          "text": "Eleven years exclusively on enterprise operator products."
+        }
+      ],
+      "tradeoffs": [
+        "Hyderabad-based, prefers remote — not relocating.",
+        "0→1 work is limited to new modules inside an existing platform."
+      ],
+      "experience": [
+        {
+          "company": "Darwinbox",
+          "title": "Lead Product Designer",
+          "period": "2019 — now",
+          "note": "Core HR platform"
+        },
+        {
+          "company": "Infosys",
+          "title": "Senior Designer",
+          "period": "2014 — 2019",
+          "note": "Enterprise applications"
+        }
+      ],
+      "education": "M.Des, IIT Kanpur",
+      "portfolio": {
+        "url": "karthikiyer.design",
+        "depth": "moderate",
+        "note": "Enterprise HR flows, strong on complexity reduction"
+      },
+      "linkedin": "linkedin.com/in/karthik-iyer",
+      "mutuals": 0,
+      "availability": "2 months notice",
+      "workAuth": "Indian citizen",
+      "compensation": "₹70–80 L",
+      "openToWork": true
+    },
+    {
+      "id": "c-015",
+      "name": "Zara Sheikh",
+      "initials": "ZS",
+      "avatarTone": "purple",
+      "title": "Senior Product Designer",
+      "company": "Practo",
+      "location": "Bangalore, India",
+      "locationFit": "in-city",
+      "yearsExperience": 8,
+      "seniority": "senior-ic",
+      "archetype": "adjacent-unexpected",
+      "companyEnvironments": [
+        "healthtech",
+        "regulated",
+        "consumer"
+      ],
+      "headline": "Healthcare product on the surface — underneath, clinical decision workflows with AI in the loop.",
+      "signals": {
+        "enterpriseB2B": 2,
+        "zeroToOne": 4,
+        "complexWorkflows": 5,
+        "aiProducts": 4,
+        "productStrategy": 3,
+        "crossFunctionalLeadership": 3,
+        "research": 5,
+        "designSystems": 2,
+        "consumer": 4,
+        "domainDepth": 4,
+        "execution": 4,
+        "enterpriseProcess": 3
+      },
+      "evidence": [
+        {
+          "signal": "complexWorkflows",
+          "text": "Designed the clinical triage workflow used by 4,000 practitioners daily."
+        },
+        {
+          "signal": "aiProducts",
+          "text": "Built the symptom-assessment AI review interface, including uncertainty and escalation states."
+        },
+        {
+          "signal": "research",
+          "text": "Ran 200+ practitioner interviews; strongest research depth of any candidate in this pool."
+        }
+      ],
+      "tradeoffs": [
+        "Healthtech rather than enterprise SaaS — different buyer, similar operational complexity.",
+        "No experience with enterprise procurement or admin surfaces."
+      ],
+      "experience": [
+        {
+          "company": "Practo",
+          "title": "Senior Product Designer",
+          "period": "2020 — now",
+          "note": "Practitioner tooling"
+        },
+        {
+          "company": "Cure.fit",
+          "title": "Product Designer",
+          "period": "2018 — 2020",
+          "note": "Consumer health"
+        }
+      ],
+      "education": "M.Des, NID Bangalore",
+      "portfolio": {
+        "url": "zarasheikh.design",
+        "depth": "strong",
+        "note": "Research-led case studies with real practitioner quotes"
+      },
+      "linkedin": "linkedin.com/in/zara-sheikh",
+      "mutuals": 0,
+      "availability": "1 month notice",
+      "workAuth": "Indian citizen",
+      "compensation": "₹58–68 L",
+      "openToWork": true
+    },
+    {
+      "id": "c-016",
+      "name": "Aryan Gupta",
+      "initials": "AG",
+      "avatarTone": "beige",
+      "title": "Product Designer",
+      "company": "CRED",
+      "location": "Bangalore, India",
+      "locationFit": "in-city",
+      "yearsExperience": 5,
+      "seniority": "mid",
+      "archetype": "breadth-agency",
+      "companyEnvironments": [
+        "consumer",
+        "fintech",
+        "high-growth"
+      ],
+      "headline": "Strong consumer craft, early in enterprise exposure.",
+      "signals": {
+        "enterpriseB2B": 1,
+        "zeroToOne": 3,
+        "complexWorkflows": 2,
+        "aiProducts": 2,
+        "productStrategy": 2,
+        "crossFunctionalLeadership": 2,
+        "research": 2,
+        "designSystems": 4,
+        "consumer": 5,
+        "domainDepth": 1,
+        "execution": 4,
+        "enterpriseProcess": 1
+      },
+      "evidence": [
+        {
+          "signal": "consumer",
+          "text": "Owns high-polish consumer surfaces with a strong motion and craft bar."
+        }
+      ],
+      "tradeoffs": [
+        "Five years — well below the stated seniority bar.",
+        "No enterprise or workflow experience."
+      ],
+      "experience": [
+        {
+          "company": "CRED",
+          "title": "Product Designer",
+          "period": "2022 — now",
+          "note": "Consumer app"
+        },
+        {
+          "company": "Dunzo",
+          "title": "Designer",
+          "period": "2020 — 2022",
+          "note": "Consumer delivery"
+        }
+      ],
+      "education": "B.Des, Pearl Academy",
+      "portfolio": {
+        "url": "aryangupta.design",
+        "depth": "strong",
+        "note": "High-polish visual work, light on outcomes"
+      },
+      "linkedin": "linkedin.com/in/aryan-gupta",
+      "mutuals": 0,
+      "availability": "1 month notice",
+      "workAuth": "Indian citizen",
+      "compensation": "₹35–45 L",
+      "openToWork": true
+    },
+    {
+      "id": "c-017",
+      "name": "Naina Verma",
+      "initials": "NV",
+      "avatarTone": "green",
+      "title": "Senior Product Designer",
+      "company": "Chargebee",
+      "location": "Pune, India",
+      "locationFit": "open-to-relocate",
+      "yearsExperience": 9,
+      "seniority": "senior-ic",
+      "archetype": "enterprise-zero-to-one",
+      "companyEnvironments": [
+        "enterprise-b2b-saas",
+        "high-growth",
+        "regulated"
+      ],
+      "headline": "Launched Chargebee's revenue analytics product; relocating to Bangalore this quarter.",
+      "signals": {
+        "enterpriseB2B": 4,
+        "zeroToOne": 4,
+        "complexWorkflows": 4,
+        "aiProducts": 2,
+        "productStrategy": 4,
+        "crossFunctionalLeadership": 3,
+        "research": 4,
+        "designSystems": 2,
+        "consumer": 1,
+        "domainDepth": 5,
+        "execution": 4,
+        "enterpriseProcess": 5
+      },
+      "evidence": [
+        {
+          "signal": "zeroToOne",
+          "text": "First designer on RevenueStory — took it from customer discovery to a paid add-on."
+        },
+        {
+          "signal": "domainDepth",
+          "text": "Five years designing analytics and reporting for finance teams."
+        },
+        {
+          "signal": "research",
+          "text": "Ran the discovery programme that defined the product's initial scope."
+        }
+      ],
+      "tradeoffs": [
+        "Currently in Pune — relocation to Bangalore already planned for Q4."
+      ],
+      "experience": [
+        {
+          "company": "Chargebee",
+          "title": "Senior Product Designer",
+          "period": "2020 — now",
+          "note": "RevenueStory analytics"
+        },
+        {
+          "company": "Mindtickle",
+          "title": "Product Designer",
+          "period": "2017 — 2020",
+          "note": "Sales enablement"
+        }
+      ],
+      "education": "B.Des, MIT Pune",
+      "portfolio": {
+        "url": "nainaverma.com",
+        "depth": "strong",
+        "note": "Discovery-to-launch narrative on RevenueStory"
+      },
+      "linkedin": "linkedin.com/in/naina-verma",
+      "mutuals": 2,
+      "availability": "2 months notice",
+      "workAuth": "Indian citizen",
+      "compensation": "₹64–74 L",
+      "openToWork": true
+    },
+    {
+      "id": "c-018",
+      "name": "Siddharth Rao",
+      "initials": "SR",
+      "avatarTone": "purple",
+      "title": "Head of Design",
+      "company": "Nimble (stealth)",
+      "location": "Bangalore, India",
+      "locationFit": "in-city",
+      "yearsExperience": 9,
+      "seniority": "lead",
+      "archetype": "ai-startup-zero-to-one",
+      "companyEnvironments": [
+        "ai-native",
+        "seed-stage",
+        "consumer"
+      ],
+      "headline": "Four startups in nine years, all pre-product-market-fit.",
+      "signals": {
+        "enterpriseB2B": 1,
+        "zeroToOne": 5,
+        "complexWorkflows": 2,
+        "aiProducts": 4,
+        "productStrategy": 5,
+        "crossFunctionalLeadership": 3,
+        "research": 3,
+        "designSystems": 2,
+        "consumer": 4,
+        "domainDepth": 1,
+        "execution": 3,
+        "enterpriseProcess": 0
+      },
+      "evidence": [
+        {
+          "signal": "zeroToOne",
+          "text": "Has started four products from nothing; comfortable with total ambiguity."
+        },
+        {
+          "signal": "productStrategy",
+          "text": "Operates as a product partner to founders rather than a designer taking specs."
+        }
+      ],
+      "tradeoffs": [
+        "Very startup-heavy — no exposure to enterprise scale or constraint.",
+        "Shortest average tenure in the pool at 1.8 years."
+      ],
+      "experience": [
+        {
+          "company": "Nimble",
+          "title": "Head of Design",
+          "period": "2025 — now",
+          "note": "Stealth AI product"
+        },
+        {
+          "company": "Tessera",
+          "title": "Founding Designer",
+          "period": "2023 — 2025",
+          "note": "Shut down"
+        },
+        {
+          "company": "Klub",
+          "title": "Design Lead",
+          "period": "2021 — 2023",
+          "note": "Fintech"
+        }
+      ],
+      "education": "B.Des, NID Ahmedabad",
+      "portfolio": {
+        "url": "siddharthrao.design",
+        "depth": "moderate",
+        "note": "Four 0-to-1 stories, two of which shut down — and says so"
+      },
+      "linkedin": "linkedin.com/in/siddharth-rao",
+      "mutuals": 0,
+      "availability": "Immediate",
+      "workAuth": "Indian citizen",
+      "compensation": "₹70–85 L",
+      "openToWork": true
+    },
+    {
+      "id": "c-019",
+      "name": "Pooja Menon",
+      "initials": "PM",
+      "avatarTone": "blue",
+      "title": "Principal Designer",
+      "company": "Icertis",
+      "location": "Bangalore, India",
+      "locationFit": "in-city",
+      "yearsExperience": 12,
+      "seniority": "principal",
+      "archetype": "enterprise-execution",
+      "companyEnvironments": [
+        "enterprise-b2b-saas",
+        "regulated",
+        "workflow"
+      ],
+      "headline": "Twelve years on contract lifecycle management — the definition of complex, regulated enterprise workflow.",
+      "signals": {
+        "enterpriseB2B": 5,
+        "zeroToOne": 2,
+        "complexWorkflows": 5,
+        "aiProducts": 3,
+        "productStrategy": 3,
+        "crossFunctionalLeadership": 4,
+        "research": 5,
+        "designSystems": 3,
+        "consumer": 1,
+        "domainDepth": 5,
+        "execution": 4,
+        "enterpriseProcess": 5
+      },
+      "evidence": [
+        {
+          "signal": "complexWorkflows",
+          "text": "Owns contract negotiation and approval workflows for Fortune 500 legal teams."
+        },
+        {
+          "signal": "research",
+          "text": "Established the research practice at Icertis from scratch."
+        },
+        {
+          "signal": "aiProducts",
+          "text": "Designed the AI clause-extraction review interface, including confidence and correction flows."
+        }
+      ],
+      "tradeoffs": [
+        "Has improved a mature platform rather than starting new products.",
+        "Longer decision cycles than a Series B environment."
+      ],
+      "experience": [
+        {
+          "company": "Icertis",
+          "title": "Principal Designer",
+          "period": "2018 — now",
+          "note": "Contract lifecycle"
+        },
+        {
+          "company": "Wipro",
+          "title": "Senior Designer",
+          "period": "2014 — 2018",
+          "note": "Enterprise platforms"
+        }
+      ],
+      "education": "M.Des, IISc Bangalore",
+      "portfolio": {
+        "url": "poojamenon.design",
+        "depth": "moderate",
+        "note": "Research practice write-ups; product work under NDA"
+      },
+      "linkedin": "linkedin.com/in/pooja-menon",
+      "mutuals": 5,
+      "availability": "3 months notice",
+      "workAuth": "Indian citizen",
+      "compensation": "₹88–98 L",
+      "openToWork": false
+    },
+    {
+      "id": "c-020",
+      "name": "Aman Bedi",
+      "initials": "AB",
+      "avatarTone": "orange",
+      "title": "Senior Product Designer",
+      "company": "Palantir",
+      "location": "London, UK",
+      "locationFit": "outside",
+      "yearsExperience": 10,
+      "seniority": "senior-ic",
+      "archetype": "bigtech-ai-leadership",
+      "companyEnvironments": [
+        "enterprise-b2b-saas",
+        "regulated",
+        "large-tech",
+        "ai-native"
+      ],
+      "headline": "Deployment-facing design at Palantir — operational AI inside regulated institutions.",
+      "signals": {
+        "enterpriseB2B": 5,
+        "zeroToOne": 4,
+        "complexWorkflows": 5,
+        "aiProducts": 4,
+        "productStrategy": 3,
+        "crossFunctionalLeadership": 4,
+        "research": 3,
+        "designSystems": 2,
+        "consumer": 1,
+        "domainDepth": 5,
+        "execution": 4,
+        "enterpriseProcess": 5
+      },
+      "evidence": [
+        {
+          "signal": "enterpriseB2B",
+          "text": "Embedded with banking and healthcare customers during live deployments."
+        },
+        {
+          "signal": "aiProducts",
+          "text": "Designed operator interfaces over ML pipelines, including provenance and override."
+        },
+        {
+          "signal": "zeroToOne",
+          "text": "Built three customer-specific applications from nothing inside deployment engagements."
+        }
+      ],
+      "tradeoffs": [
+        "London-based; has not indicated openness to relocating to Bangalore.",
+        "Deployment work is customer-specific rather than product-generalised."
+      ],
+      "experience": [
+        {
+          "company": "Palantir",
+          "title": "Senior Product Designer",
+          "period": "2019 — now",
+          "note": "Foundry deployments"
+        },
+        {
+          "company": "Deliveroo",
+          "title": "Product Designer",
+          "period": "2016 — 2019",
+          "note": "Operations tooling"
+        }
+      ],
+      "education": "BA, University College London",
+      "portfolio": {
+        "url": "amanbedi.co.uk",
+        "depth": "thin",
+        "note": "Deployment work almost entirely confidential"
+      },
+      "linkedin": "linkedin.com/in/aman-bedi",
+      "mutuals": 0,
+      "availability": "3 months notice",
+      "workAuth": "UK citizen — would need relocation support",
+      "compensation": "£110–130 K",
+      "openToWork": false
+    },
+    {
+      "id": "c-021",
+      "name": "Aishwarya Rao",
+      "initials": "AR",
+      "avatarTone": "green",
+      "isYou": true,
+      "backfillMatchPercent": 90,
+      "title": "Lead UX Designer, Agentforce",
+      "company": "Salesforce",
+      "location": "Bengaluru, Karnataka, India",
+      "locationFit": "in-city",
+      "yearsExperience": 8,
+      "seniority": "lead",
+      "archetype": "bigtech-ai-leadership",
+      "companyEnvironments": [
+        "enterprise-b2b-saas",
+        "ai-native",
+        "high-growth",
+        "workflow",
+        "commerce"
+      ],
+      "headline": "Lead UX Designer for Agentforce, designing the intelligence layer and core capabilities that make Salesforce AI agents useful at work. Previously Udaan and Freshworks.",
+      "signals": {
+        "enterpriseB2B": 5,
+        "zeroToOne": 4,
+        "complexWorkflows": 4,
+        "aiProducts": 5,
+        "productStrategy": 4,
+        "crossFunctionalLeadership": 4,
+        "research": 4,
+        "designSystems": 4,
+        "consumer": 2,
+        "domainDepth": 4,
+        "execution": 5,
+        "enterpriseProcess": 5
+      },
+      "evidence": [
+        {
+          "signal": "aiProducts",
+          "text": "Designs the intelligence layer and core capabilities for Salesforce Agentforce, helping AI agents feel useful and effective at work."
+        },
+        {
+          "signal": "zeroToOne",
+          "text": "Led design for the Agentforce Employee Agent charter, shaping next-generation AI agents for productivity and employee experience."
+        },
+        {
+          "signal": "enterpriseB2B",
+          "text": "Designed enterprise products at Salesforce and B2B commerce experiences at Udaan, spanning Agentforce, Experience Cloud, and Udaan Bolt."
+        },
+        {
+          "signal": "complexWorkflows",
+          "text": "Designed scalable, low-code commerce components for Experience Builder so businesses can launch CRM-driven sites with less developer dependency."
+        },
+        {
+          "signal": "productStrategy",
+          "text": "Led growth design for Udaan Bolt, an experimental reimagining of B2B ecommerce for small shop owners."
+        },
+        {
+          "signal": "research",
+          "text": "Led UX research across the Freshworks Customer Experience business unit, defining experience metrics and evaluating product success."
+        },
+        {
+          "signal": "execution",
+          "text": "Progressed from product design in B2B commerce and customer experience to leading UX for Salesforce's AI-agent platform."
+        }
+      ],
+      "tradeoffs": [
+        "Most recent experience is within a large enterprise product organisation; the transition to a smaller team would need deliberate positioning.",
+        "Strongest recent evidence is AI agents and enterprise platforms rather than an early-stage standalone startup."
+      ],
+      "experience": [
+        {
+          "company": "Salesforce",
+          "title": "Lead UX Designer — Agentforce",
+          "period": "Dec 2025 — present",
+          "note": "Designing the intelligence layer and core capabilities for AI agents"
+        },
+        {
+          "company": "Salesforce",
+          "title": "Senior UX Designer — Agentforce",
+          "period": "Jun 2025 — Dec 2025",
+          "note": "Led design for the Agentforce Employee Agent charter"
+        },
+        {
+          "company": "Salesforce",
+          "title": "Senior UX Designer — Experience Cloud",
+          "period": "Jan 2024 — Aug 2025",
+          "note": "Scalable low-code commerce components for Experience Builder"
+        },
+        {
+          "company": "udaan.com",
+          "title": "Product Designer III",
+          "period": "Jan 2022 — Oct 2023",
+          "note": "Led growth design for Udaan Bolt, a reimagining of B2B ecommerce"
+        },
+        {
+          "company": "udaan.com",
+          "title": "Product Designer",
+          "period": "Aug 2021 — Jan 2022",
+          "note": "B2B commerce product design"
+        },
+        {
+          "company": "Freshworks",
+          "title": "Product Designer",
+          "period": "Feb 2020 — Jul 2021",
+          "note": "Led UX research across the Customer Experience business unit"
+        },
+        {
+          "company": "Schneider Electric",
+          "title": "UX Design Analyst",
+          "period": "Jul 2018 — Aug 2019",
+          "note": "User experience design and analysis"
+        },
+        {
+          "company": "LiquidHub",
+          "title": "Design Intern",
+          "period": "Jan 2018 — May 2018",
+          "note": "Graphic design"
+        }
+      ],
+      "education": "Vellore Institute of Technology",
+      "portfolio": {
+        "url": "aishwaryarao.design",
+        "depth": "strong",
+        "note": "Product theses written before pixels; systems work shown end to end"
+      },
+      "linkedin": "linkedin.com/in/aishwarya-rao-design",
+      "mutuals": 0,
+      "availability": "Open to on-site, hybrid or remote",
+      "workAuth": "Not specified",
+      "compensation": "Not disclosed",
+      "openToWork": true
+    }
+  ]
+}

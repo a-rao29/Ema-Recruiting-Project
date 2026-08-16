@@ -1,0 +1,157 @@
+<!doctype html>
+<!-- @dsCard group="Apps" name="Ema Recruiting · Search" subtitle="Context-aware sourcing — S1 search landing" viewport="1440x960" -->
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Ema Recruiting — Search</title>
+<link rel="stylesheet" href="../../colors_and_type.css"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/bold/style.css"/>
+<style>
+  html, body, #root { height: 100%; margin: 0; }
+  body { background: var(--app-background); font-family: var(--app-font-family); color: var(--fg1); }
+  * { box-sizing: border-box; }
+  button, textarea, input { font-family: inherit; }
+  textarea::placeholder { color: var(--beige-800); }
+</style>
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="root"></div>
+
+<!-- design-system primitives, imported unchanged -->
+<script type="text/babel" src="../../ui_kits/web_app/Primitives.jsx?v=th-forward-props-1"></script>
+<!-- app frame, borrowed from the web-app kit -->
+<script type="text/babel" src="Shell.jsx?v=multi-search-1"></script>
+<!-- one search state -->
+<script src="state.js?v=multi-search-1"></script>
+<!-- criteria, scoring, explanations -->
+<script src="engine.js"></script>
+<!-- screens -->
+<script type="text/babel" src="screens/Home.jsx?v=subtle-disabled-1"></script>
+<script type="text/babel" src="screens/S1Landing.jsx?v=click-typewriter-1"></script>
+<script type="text/babel" src="screens/Conversation.jsx?v=multi-search-1"></script>
+<script type="text/babel" src="screens/Shortlists.jsx?v=company-logos-1"></script>
+<script type="text/babel" src="screens/Tasks.jsx?v=project-name-1"></script>
+<script type="text/babel" src="screens/Outreach.jsx?v=send-ready-1"></script>
+
+<script type="text/babel">
+function App({ data }) {
+  const [nav, setNav] = React.useState('home');
+  const [collapsed, setCollapsed] = React.useState(false);
+  const [savedConversations, setSavedConversations] = React.useState([]);
+  const s = useSearchState();
+  const started = s.thread.length > 0;
+
+  const conversationTitle = snapshot => {
+    const brief = (snapshot.thread || []).find(item => item.kind === 'brief');
+    if (brief && brief.scenario === 'other') return 'Tokyo edge-case search';
+    if (brief && brief.scenario === 'backfill') return 'Senior product designer backfill';
+    return 'Senior product designer';
+  };
+
+  const saveConversation = snapshot => {
+    if (!snapshot || !(snapshot.thread || []).length) return;
+    const entry = { id: snapshot.id, title: conversationTitle(snapshot), snapshot: { ...snapshot } };
+    setSavedConversations(previous => [entry, ...previous.filter(item => item.id !== entry.id)]);
+  };
+
+  const restart = () => {
+    saveConversation(SearchState.get());
+    SearchState.reset();
+    setNav('search');
+  };
+
+  const openConversation = id => {
+    const target = savedConversations.find(item => item.id === id);
+    if (!target) {
+      if (s.id === id) setNav('search');
+      return;
+    }
+    const current = SearchState.get();
+    if ((current.thread || []).length && current.id !== id) saveConversation(current);
+    SearchState.set(() => ({ ...target.snapshot }));
+    setSavedConversations(previous => previous.filter(item => item.id !== id));
+    setNav('search');
+  };
+
+  const activeTitle = started ? conversationTitle(s) : null;
+  const conversations = [
+    ...(started ? [{ id: s.id, title: activeTitle }] : []),
+    ...savedConversations.filter(item => !started || item.id !== s.id).map(({ id, title }) => ({ id, title })),
+  ];
+
+  const pageTitle = {
+    home: PROJECT_NAME, shortlists: 'Shortlists', outreach: 'Outreach', tasks: 'Tasks',
+    company: 'Company profile', connections: 'Connections',
+  }[nav];
+
+  const projectPage = ['home', 'search', 'shortlists', 'outreach', 'tasks'].includes(nav);
+  const breadcrumbs = projectPage
+    ? (nav === 'home' ? [PROJECT_NAME] : [PROJECT_NAME, nav === 'search' ? (started ? activeTitle : 'New search') : pageTitle])
+    : [];
+  const inConversation = nav === 'search' && started;
+  const minimiseChat = () => {
+    const destination = s.chatExpandedFrom || 'home';
+    SearchState.set({ chatExpandedFrom: null });
+    setNav(destination);
+  };
+
+  return (
+    <div style={{height:'100%',display:'flex'}}>
+      <Sidebar collapsed={collapsed} onToggle={()=>setCollapsed(c=>!c)} current={nav}
+        onNav={setNav} started={started} onNewSearch={restart}
+        conversations={conversations} activeConversationId={started ? s.id : null}
+        onOpenConversation={openConversation} taskCount={(s.tasks || []).length}/>
+      <div style={{flex:1,display:'flex',flexDirection:'column',minWidth:0}}>
+        <Navbar breadcrumbs={breadcrumbs} title={pageTitle || 'New search'}
+          chatTitle={inConversation ? activeTitle : null}
+          onNewChat={restart} onMinimizeChat={minimiseChat}/>
+        <main style={{flex:1,overflow:'auto',scrollbarGutter:'stable',background:'var(--app-background)'}}>
+          {nav === 'search' && !started && <S1Landing onStart={()=>{}}/>}
+          {started && <div style={{display:nav === 'search' ? 'block' : 'none'}}><Conversation key={s.id} onRestart={restart} onNavigate={setNav}/></div>}
+          {nav !== 'search' && (nav === 'home'
+            ? <HomePage onNavigate={setNav} onNewSearch={restart}/>
+            : nav === 'tasks'
+            ? <TasksPage tasks={s.tasks || []} onOpenSearch={()=>setNav('search')}/>
+            : nav === 'shortlists'
+            ? <ShortlistsPage onNavigate={setNav}/>
+            : nav === 'outreach'
+              ? <OutreachPage onNavigate={setNav}/>
+              : (
+              <div style={{padding:'64px 28px',maxWidth:560,color:'var(--fg2)'}}>
+                <div style={{fontSize:30,fontWeight:700,color:'var(--fg1)',marginBottom:8}}>{pageTitle}</div>
+                <p style={{fontSize:14,lineHeight:'20px'}}>
+                  {projectPage
+                    ? `This belongs to ${PROJECT_NAME} and can include candidates from every search in the project.`
+                    : `This is shared across all of your hiring projects.`}
+                </p>
+                <div style={{marginTop:16}}>
+                  <Button variant="secondary" color="brand" icon="arrow-left" onClick={()=>setNav('search')}>Back to search</Button>
+                </div>
+              </div>
+            ))}
+        </main>
+      </div>
+    </div>
+  );
+}
+
+const bust = `?t=${Date.now()}`;
+Promise.all([
+  fetch('data/company.json' + bust).then(r=>r.json()),
+  fetch('data/team.json' + bust).then(r=>r.json()),
+  fetch('data/candidates.json' + bust).then(r=>r.json()),
+  fetch('data/jd.json' + bust).then(r=>r.json()),
+]).then(([company, team, candidates, jd]) => {
+  SearchState.set({ company, team, candidates: candidates.candidates, jd });
+  ReactDOM.createRoot(document.getElementById('root')).render(<App/>);
+}).catch(err => {
+  document.getElementById('root').innerHTML =
+    `<div style="padding:48px;font-family:system-ui">Could not load data: ${err.message}</div>`;
+});
+</script>
+</body>
+</html>
